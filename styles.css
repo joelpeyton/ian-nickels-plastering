@@ -178,6 +178,45 @@ footer a:focus[href='mailto:joelpeyton@hotmail.co.uk'] {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1280px) {
+    body {
+        font-size: 17px;
+    }
+    
+    .fa-star {
+        font-size: 20px;
+    }
+    
+    .p-start {
+        font-size: 19px;
+    }
+
+    .caps-lg {
+        font-size: 20px;
+    }
+    
+    .caps-sm {
+        font-size: 17px;
+        margin: 10px 0px 30px;
+    }
+    
+    .navbar {
+        font-size: 11px;
+    }
+    
+    .navbar-brand {
+        font-size: 14px;
+    }
+    
+    #reviews {
+        height: 350px;
+    }
+    
+    .fa-10x {
+        font-size: 175px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     body {
         font-size: 14px;
@@ -197,7 +236,6 @@ footer a:focus[href='mailto:joelpeyton@hotmail.co.uk'] {
     
     .caps-sm {
         font-size: 14px;
-        margin: 10px 0px 30px;
     }
     
     .navbar {
@@ -208,39 +246,55 @@ footer a:focus[href='mailto:joelpeyton@hotmail.co.uk'] {
         font-size: 12px;
     }
     
-    #reviews {
-        height: 300px;
-    }
-    
     .fa-10x {
         font-size: 150px;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .fa-star {
+        font-size: 12px;
+    }
     
-}
-
-@media screen and (max-width: 425px) {
+    .caps-lg {
+        font-size: 12px;
+    }
     
-}
-
-
-
-
-@media screen and (max-width: 800px) {
+    .caps-sm {
+        font-size: 9px;
+    }
+    
+    .navbar {
+        font-size: 9px;
+    }
+    
+    .navbar-brand {
+        font-size: 10px;
+    }
+    
+    .fa-10x {
+        font-size: 100px;
+    }
+    
     .column {
         flex: 50%;
         max-width: 50%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
     .column {
         flex: 100%;
         max-width: 100%;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
 
 
 
